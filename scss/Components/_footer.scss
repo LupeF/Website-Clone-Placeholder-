@@ -1,0 +1,58 @@
+footer{
+    background-color: #dce7e2;
+    padding: 1em;
+    ul{
+        padding: 0;
+        li{
+            list-style-type: none;
+            padding-bottom: 1em ;
+            &:nth-child(5){
+                margin-top: 2em;
+            }
+            a {
+                text-decoration: none;
+            };
+        };
+    };
+    .newsletter-container{
+        margin: 2.5em 0;
+        .position{
+            position: relative;
+        }
+        input{
+            width: 100%;
+            height: 3.8em;
+            padding: .5em;
+            position: relative;
+            background-color:#dce7e2 ;
+        }
+        button {
+            height: 3em;
+            width: 40%;
+            position: absolute;
+            top: 6px;
+            right: 6px;
+            background-color: rgb(223, 151, 18);
+            color: white;
+        }
+    }
+    .media-container {
+        margin-top: 2.5em;
+        h3{
+            margin-bottom: .5em;
+        }
+        svg{
+            width: 20px;
+            height: 20px;
+        }
+    };
+    .svg-container{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    };
+    .copyright-container{
+        text-align: center;
+        margin-top: 2em;
+    };
+};
