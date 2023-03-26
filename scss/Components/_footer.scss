@@ -6,11 +6,13 @@ footer{
         li{
             list-style-type: none;
             padding-bottom: 1em ;
+            
             &:nth-child(5){
                 margin-top: 2em;
             }
             a {
                 text-decoration: none;
+                color:  black
             };
         };
     };
@@ -25,6 +27,8 @@ footer{
             padding: .5em;
             position: relative;
             background-color:#dce7e2 ;
+            border-radius: 5px;
+            outline: none;
         }
         button {
             height: 3em;
@@ -34,6 +38,7 @@ footer{
             right: 6px;
             background-color: rgb(223, 151, 18);
             color: white;
+            border-radius: 5px;
         }
     }
     .media-container {
@@ -54,5 +59,9 @@ footer{
     .copyright-container{
         text-align: center;
         margin-top: 2em;
+        .copyright-icon{
+            height: 15px;
+           
+        }
     };
 };

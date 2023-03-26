@@ -9,6 +9,10 @@ section{
         padding: 1em ;
         margin-bottom: .8em;
     };
+    .img-container{
+        border: 5px solid orange;
+        border-radius: 0 50px 0 0;
+    }
     .img-container img{
         width: 100%;
         height: 250px;
@@ -38,7 +42,23 @@ section{
         background-color:rgb(223, 151, 18);
         color: white;
         border-radius: 0 10px 0 10px;
-        & + button{
+    }
+    .btn-container {
+       .magna-icon,
+       .lightning-icon{
+        position: relative;
+        height: 20px;
+        top: 5px;
+        width: 25px;
+       }
+       .magna-icon{
+        fill: white;
+       }
+       .lightning-icon{
+        fill: rgb(223, 151, 18);
+       }
+       
+        & + .btn-container button{
             margin-bottom: 2em;
             background-color: white;
             color: black;
@@ -84,6 +104,9 @@ section{
 .career-sec{
     background-color: initial;
     margin-bottom: 3em;
+    img{
+        height: 130px;
+    }
     .career{
         background-color: #dce7e2;
     }
